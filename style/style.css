@@ -1,6 +1,7 @@
 * {
     color: white;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -41,7 +42,7 @@ nav {
 }
 
 .nav-bar ul li {
-    margin: 20px;
+    margin-right: 40px;
     font-size: 1.1em;
     color: #989898;
 }
