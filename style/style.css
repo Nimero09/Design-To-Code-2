@@ -56,4 +56,29 @@ nav {
 
 nav .logo p {
     font-size: 1.1em;
+    font-weight: 100;
+}
+
+/* Hero */
+section.hero {
+    width: 100%;
+}
+
+.hero-container {
+   width: 1055px; 
+   margin: 30px auto;
+}
+
+.hero-container h1 {
+    font-size: 60px;
+    width: 700px;
+    font-weight: 200;
+}
+
+.hero-container h2 {
+    font-weight: 100;
+    color: dimgray;
+    font-size: 20px;
+    width: 620px;
+    margin-top: 10px;
 }
