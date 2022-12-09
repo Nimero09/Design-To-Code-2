@@ -82,3 +82,33 @@ section.hero {
     width: 620px;
     margin-top: 10px;
 }
+
+section.logos {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.logos .container {
+    width: 1055px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Content */
+section.content {
+    margin-top: 70px;
+    width: 100%;
+}
+
+section.content .container {
+    width: 1055px;
+    margin: 0 auto;
+    display: flex;
+    gap: 75px;
+}
+
+
+.container img {
+    max-width: 490px;
+}
