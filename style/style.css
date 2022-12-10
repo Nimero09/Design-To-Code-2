@@ -105,7 +105,7 @@ section.content .container {
     width: 1055px;
     margin: 0 auto;
     display: flex;
-    gap: 70px;
+    gap: 75px;
 }
 
 .block-1, .block-2 {
@@ -129,3 +129,31 @@ section.content .container {
     color: dimgray;
     margin-top: 15px;
 }
+
+/* Content */
+section#experience {
+    background-color: #2e3038;
+}
+
+#experience {
+    padding: 70px;
+}
+
+#experience .block-1 h1{
+    font-size: 40px;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 0
+}
+
+#experience p {
+    font-size: 19px;
+    font-weight: 100;
+    color: dimgray;
+    margin-top: 15px;
+}
+
+#experience .block-2 p:nth-child(1) {
+    margin-top: 5px;
+}
+
