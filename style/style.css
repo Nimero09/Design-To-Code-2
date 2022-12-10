@@ -78,7 +78,7 @@ section.hero {
 .hero-container h2 {
     font-weight: 100;
     color: dimgray;
-    font-size: 20px;
+    font-size: 19px;
     width: 620px;
     margin-top: 10px;
 }
@@ -97,7 +97,7 @@ section.logos {
 
 /* Content */
 section.content {
-    margin-top: 70px;
+    margin: 70px 0;
     width: 100%;
 }
 
@@ -105,10 +105,27 @@ section.content .container {
     width: 1055px;
     margin: 0 auto;
     display: flex;
-    gap: 75px;
+    gap: 70px;
 }
 
+.block-1, .block-2 {
+    width: 100%;
+}
 
-.container img {
-    max-width: 490px;
+.container .block-1 img, .block-2 img {
+    width: 100%;
+    height: auto;
+}
+
+.container .text h1 {
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.container .text p {
+    font-size: 19px;
+    font-weight: 100;
+    color: dimgray;
+    margin-top: 15px;
 }
