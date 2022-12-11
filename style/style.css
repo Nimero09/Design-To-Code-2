@@ -21,7 +21,7 @@ li {
 
 .contact-button button {
     color: black;
-    background-color: #fbe850    ;
+    background-color: #fbe850;
 }
 
 header {
@@ -157,3 +157,58 @@ section#experience {
     margin-top: 5px;
 }
 
+/* Content 2 */
+.container-single {
+    width: 1055px;
+    margin: 0 auto;
+}
+
+.text-container {
+    width: 50%;
+}
+.container-single h1 {
+    font-size: 40px;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.container-single p{
+    font-size: 20px;
+    font-weight: 100;
+    color: dimgray;
+    margin-top: 15px;
+}
+
+.text-container button {
+    color: black;
+    background-color: #fbe850;
+    border: none;
+    padding: 17px 40px;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background: #2e3038;
+}
+
+footer .container {
+    width: 1055px;
+    margin: 0 auto;
+    display: flex;
+    padding: 25px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container p {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+footer .social a {
+    margin-left: 10px;
+}
