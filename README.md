@@ -1,6 +1,6 @@
 Hi!
 
-This is my first project applying everything I've learned so far about
+This is my second project applying everything I've learned so far about
 HTML & CSS. I went online and looked for a website design and then I
 transformed it into code.
 
